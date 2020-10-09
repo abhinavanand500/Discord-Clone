@@ -1,9 +1,12 @@
 .sidebar {
-    display: 🇫flex;
+    display: flex;
     flex-direction: column;
     flex: 0.25;
     height: 100vh;
     background-color: #2f3135;
+}
+.sidebar_channels {
+    flex: 1;
 }
 
 .sidebar_top {
@@ -16,10 +19,6 @@
     border-bottom: 3px solid #26282c;
 }
 
-.sidebar_channels {
-    flex: 1;
-}
-
 .sidebar_addChannel {
     cursor: pointer;
 }
@@ -27,6 +26,7 @@
 .sidebar_addChannel:hover {
     color: white;
 }
+
 .sidebar_channelHeader {
     display: flex;
     justify-content: space-between;
@@ -71,4 +71,7 @@
 }
 .sidebar_profileInfo > h3 {
     color: white;
+}
+.avatar_user {
+    cursor: pointer;
 }

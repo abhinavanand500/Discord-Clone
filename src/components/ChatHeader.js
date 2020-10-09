@@ -6,13 +6,13 @@ import PeopleAltRounded from "@material-ui/icons/PeopleAltRounded";
 import SearchRoundedIcon from "@material-ui/icons/SearchRounded";
 import { HelpRounded, SendRounded } from "@material-ui/icons";
 
-function ChatHeader() {
+function ChatHeader({ channelName }) {
     return (
         <div className='chatHeader'>
             <div className='chatHeader_left'>
                 <h3>
                     <span className='chatHeader_hash'>#</span>
-                    Test Channel Name
+                    {channelName}
                 </h3>
             </div>
             <div className='chatHeader_right'>
