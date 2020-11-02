@@ -37,7 +37,7 @@ function Sidebar() {
     return (
         <div className='sidebar'>
             <div className='sidebar_top'>
-                <h3>Abhinav Anand</h3>
+                <h3>{user.displayName}</h3>
                 <ExpandMoreIcon />
             </div>
             <div className='sidebar_channels'>
