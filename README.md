@@ -1,4 +1,4 @@
-# COVID-19 Report App
+# Discord Clone
 
 ### [Live Site](https://discord-rho.vercel.app/)
 
